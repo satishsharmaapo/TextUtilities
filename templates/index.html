@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        func(){
+        document.getElementById("myForm").reset();
+    }   
+    </script>
+</head>
+<body>
+    <h1> welcome to text Analyser,Enter your text below</h1>
+    <form method="get" action="/analyze" target="_blank">
+        <textarea name="text" style="margin: 0px; width: 981px; height: 199px;"></textarea></br>
+        <input type="checkbox" name="removepunc">Remove punctutation</input>
+        <input type="checkbox" name="captitalizefirst">captilization</input>
+        <input type="checkbox" name="newlineremove">new Liner remover</input>
+        <input type="checkbox" name="spaceremover">Space Remover</input>
+        <input type="checkbox" name="charcounter">character count</input>
+        
+         
+    </form>
+    
+</body>
+
+</html>
